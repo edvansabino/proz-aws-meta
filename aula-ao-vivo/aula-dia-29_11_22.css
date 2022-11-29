@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: aquamarine;
+  background-color: bisque;
+}
+
+div {
+  margin-top: 30px;
+  position: absolute;
+  border: 2px solid green;
+  color: blue;
+}
+
+p {
+  text-align: justify;
+  color: powderblue;
+  background-color: darksalmon;
+  border: 3px solid red;
+}
+
+.caixa {
+  margin-left: 25px;
+  margin-bottom: 10px;
+  width: 100px;
+  background-color: lightgray;
+}
+
+#ultima-caixa {
+  color: aqua;
+  text-size-adjust: 50px;
+  text-align: right;
+  background-color: navajowhite;
+}
