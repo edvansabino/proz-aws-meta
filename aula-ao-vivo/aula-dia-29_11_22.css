@@ -4,10 +4,16 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: beige;
+}
+
 h1 {
   text-align: center;
   color: aquamarine;
   background-color: bisque;
+  padding: 50px;
+  bottom: 10px;
 }
 
 div {
