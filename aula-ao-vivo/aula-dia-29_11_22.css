@@ -11,10 +11,12 @@ h1 {
 }
 
 div {
-  margin-top: 30px;
+  margin-top: 300px;
   position: absolute;
   border: 2px solid green;
   color: blue;
+  width: 500px;
+  height: 600px;
 }
 
 p {
@@ -22,18 +24,23 @@ p {
   color: powderblue;
   background-color: darksalmon;
   border: 3px solid red;
+  width: 400px;
+  height: 500px;
 }
 
 .caixa {
-  margin-left: 25px;
-  margin-bottom: 10px;
-  width: 100px;
+  margin-left: 250px;
+  margin-bottom: 100px;
+  width: 400px;
+  height: 500px;
   background-color: lightgray;
 }
 
 #ultima-caixa {
   color: aqua;
-  text-size-adjust: 50px;
+  text-size-adjust: 250px;
   text-align: right;
   background-color: navajowhite;
+  width: 600px;
+  height: 700px;
 }
