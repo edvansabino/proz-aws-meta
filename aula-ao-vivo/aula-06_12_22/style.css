@@ -1,3 +1,9 @@
+body {
+  background-color: #59378d;
+  height: 100vh;
+  color: white;
+}
+
 header {
   background-color: lightgray;
   display: flex;
@@ -6,8 +12,24 @@ header {
   margin-bottom: 16px;
 }
 
-nav {
-  /* background-color: #EF7D19; */
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  padding-right: 50px;
+  /* background-color: #ef7d19; */
+}
+
+nav a:hover {
+  font-size: 1.5rem;
+  color: #fd5800;
+  transition: all 0.4s ease-in-out;
 }
 
 ul {
@@ -22,22 +44,48 @@ nav ul li {
 }
 
 .main-proz {
+  height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  align-items: center;
+  padding: 0 250px;
 }
 
-.proz-tittles {
+.proz-titles {
+  align-self: flex-start;
+  padding-left: 15px;
+}
+
+.description {
   display: flex;
-  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.connection-title {
+  margin-bottom: 1rem;
+  text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .student-at-work {
-  display: flex;
-  width: 300px;
+  background: url(./img/bg_laranja.jpg);
+  border-radius: 12px;
+  max-width: 300px;
+  height: 200px;
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 15px;
+}
+
+.quality-title {
+  margin-bottom: 1rem;
+  text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .quality-course {
-  display: flex;
-  width: 300px;
+  background: url(./img/bg_laranja.jpg);
+  border-radius: 12px;
+  max-width: 300px;
+  height: 200px;
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 15px;
 }
