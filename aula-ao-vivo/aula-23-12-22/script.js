@@ -16,7 +16,10 @@ function calcTotalValue(quantProduct) {
 }
 
 function updateSubTotalText() {
-  quantidadeSubtotal.innerText = quantProduct.value + " itens";
+  quantidadeSubtotal.innerText =
+    quantProduct.value == 1
+      ? `${quantProduct.value} item`
+      : `${quantProduct.value} itens`;
   calcTotalValue(quantProduct.value);
 }
 
